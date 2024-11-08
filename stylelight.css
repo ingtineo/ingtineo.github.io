@@ -1,0 +1,314 @@
+body {
+    background-color: #ebe6e0;
+}
+
+.anton-sc-regular {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+/*CARROUSEL*/
+.carousel-item button{
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #d5d3d0;
+    color: #000000;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+
+/*NAVBAR*/
+.navbar {
+    padding-top: 0rem; 
+    padding-bottom: 0rem;
+    position: fixed;
+    width: 100%;
+    background-color: transparent; 
+
+}
+
+
+
+.navbar a {
+    color: #010000; 
+    font-size:medium;
+}
+
+.navbar a:hover {
+    color: rgb(39, 13, 234); 
+}
+
+.logo {
+    transform: translate(-2px);
+}
+
+/*Tickets*/
+#dates button{
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(39, 13, 234);
+    color: #fff;
+    font-size: 0.8rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+}
+
+
+#dates p{
+    font-size: 1rem;
+}
+
+#dates {
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+#about p{
+    color: #000000;
+}
+
+#about button{
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #abbc8a;
+    color: #191414;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+#lastedition {
+    background-color: #7cba84;
+    box-shadow: 10px 10px rgba(0, 38, 255, 0.1);
+}
+
+/*MERCH*/
+.card {
+    border-radius: 10px;              
+    box-shadow: 0px 4px 8px rgba(5, 255, 55, 0.1); 
+    transition: transform 0.3s, box-shadow 0.3s; /* transicion*/
+    overflow: hidden;
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;     
+    transition: transform 0.3s; /* Efecto cuando se pasa el mouse */
+}
+
+/* zoom tarjeta */
+.card:hover {
+    transform: scale(1.05);           
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+ /* Zoom imagen */
+.card:hover img {
+    transform: scale(1.1);           
+}
+
+.card-body {
+    text-align: center;              
+    padding: 15px;
+    background-color: #cee3a9;       
+}
+
+.card-body h5 {
+    color: #333;                    
+    font-size: 1.2em;                 
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card-body p {                
+    font-size: 1em;
+    margin: 0;
+    font-weight: bold;
+}
+
+#carouselExample,
+#carouselExampleDark{
+  width: 500px;
+  height: 500px;
+}
+.carrusel-imagen{
+  width: 300px;
+  height: 300px;
+}
+.carrusel-texto{
+  text-align: center;
+  margin: 40px;
+}
+#invitados{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: max-content;
+  height: max-content;
+}
+
+.testimonio-info{
+    color: #1c1b1b;
+}
+
+#contact{
+    background-color: #d5e9be;
+}
+
+#contact button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: blue;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-style: italic;
+
+}
+
+/* ALERTA DARKMODE */
+.alert-custom {
+    position: fixed;
+    top: 75px;
+    right: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+
+/* BOTON X ALERTA*/
+.close-btn {
+    background: none;
+    border: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.close-btn:hover {
+    color: #0008ff; 
+}
+
+/*ESTILO FAQs*/
+body {
+    background-color: #eee5e1;
+}
+
+.faq-header {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.faq-button {
+    background-color: #000;
+    color: #fff;
+    margin: 0.2rem;
+    border-radius: 2rem;
+}
+
+.faq-button:hover {
+    background-color: #555;
+}
+
+.faq-question {
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    border: 1px solid #1b1919;
+    border-radius: 1rem;
+}
+
+.faq-question:hover {
+    background-color:#cee3a9;
+    transform: scale(1.02); 
+}
+
+
+.faq-answer {
+    display: none;
+    padding: 1rem;
+    background-color: #dbd5cd;
+    border: 1px solid #060303;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+/*TICKETS*/
+
+#tickets .card {
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+#tickets .card:hover {
+    transform: scale(1.05);
+}
+
+.price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #0d563f;
+}
+
+#comprar form .form-label {
+    font-weight: bold;
+}
+
+#comprar form .form-control,
+#comprar form .form-select {
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(20, 9, 77, 0.1);
+}
+
+#comprar form button[type="submit"] {
+    background-color: #6d05ff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+#comprar form button[type="submit"]:hover {
+    background-color: #83b48d;
+}
+
+.modal-content {
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.modal-header {
+    background-color: #cebcd4;
+    color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.modal-body {
+    line-height: 1.6;
+    color: #333;
+}
+
+

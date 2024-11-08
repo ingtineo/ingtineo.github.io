@@ -1,0 +1,276 @@
+body{
+    background-color: rgb(30, 30, 31);
+}
+
+.anton-sc-regular {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+/*CARROUSEL*/
+.carousel-item button{
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ff4a02;
+    color: #fff;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+
+/*NAVBAR*/
+.navbar {
+    padding-top: 0rem; 
+    padding-bottom: 0rem;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+
+}
+
+.navbar a {
+    color: #ffffff; 
+    font-size:medium;
+}
+
+.navbar a:hover {
+    color: rgb(39, 13, 234); 
+}
+
+.logo {
+    transform: translate(-2px);
+}
+
+/*Tickets*/
+#dates button{
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ff4a02;
+    color: #fff;
+    font-size: 0.8rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+}
+
+#dates p{
+    font-size: 1rem;
+}
+
+#dates {
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+#about p{
+    color: #e6e8de;
+}
+
+#about button{
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #abff02;
+    color: #191414;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+#lastedition {
+    background-color: #ed5011;
+    box-shadow: 10px 10px rgba(255, 0, 187, 0.1);
+}
+
+/*MERCH*/
+.card {
+    border-radius: 10px;              
+    box-shadow: 0px 4px 8px rgba(5, 255, 55, 0.1); 
+    transition: transform 0.3s, box-shadow 0.3s; /* Transicion*/
+    overflow: hidden;
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;     
+    transition: transform 0.3s;/* Efecto cuando se pasa el mouse */
+}
+
+/* zoom tarjeta */
+.card:hover {
+    transform: scale(1.05);           
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+ /* zoom imagen */
+.card:hover img {
+    transform: scale(1.1);           
+}
+
+.card-body {
+    text-align: center;              
+    padding: 15px;
+    background-color: #e0dbc8;       
+}
+
+.card-body h5 {
+    color: #333;                    
+    font-size: 1.2em;                 
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card-body p {                
+    font-size: 1em;
+    margin: 0;
+    font-weight: bold;
+}
+
+#carouselExample,
+#carouselExampleDark{
+  width: 500px;
+  height: 500px;
+}
+.carrusel-imagen{
+  width: 300px;
+  height: 300px;
+}
+.carrusel-texto{
+  text-align: center;
+  margin: 40px;
+}
+#invitados{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: max-content;
+  height: max-content;
+}
+
+.testimonio-info{
+    color: #fff;
+}
+
+#contact{
+    background-color: #864bfb;
+}
+
+#contact button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #abff02;
+    color: #191414;
+    font-size: 1.2rem;
+    font-style: italic;
+
+}
+
+/*ESTILOS FAQs ACORDEON*/
+
+.faq-header {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.faq-button {
+    background-color: #000;
+    color: #fff;
+    margin: 0.2rem;
+    border-radius: 2rem;
+}
+
+.faq-button:hover {
+    background-color: #555;
+}
+
+.faq-question {
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    border: 1px solid #68615d;
+    border-radius: 1rem;
+    color: #d3d3d3;
+}
+
+.faq-question:hover {
+    color: #000;
+    background-color:#22f84a;
+    transform: scale(1.02); 
+}
+
+
+.faq-answer {
+    display: none;
+    padding: 1rem;
+    background-color: #302e2e;
+    border: 1px solid #0b34ff;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    color: #d3d3d3;
+}
+/*TICKETS*/
+
+#tickets .card {
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 255, 81, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+#tickets .card:hover {
+    transform: scale(1.05);
+}
+
+.price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #3100f5;
+}
+
+#comprar form .form-label {
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+#comprar form .form-control,
+#comprar form .form-select {
+    border-radius: 8px;
+    box-shadow: 0px 10px 4px rgba(255, 0, 217, 0.1);
+}
+
+#comprar form button[type="submit"] {
+    background-color: #6d05ff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+#comprar form button[type="submit"]:hover {
+    background-color: #fd6500;
+}
+
+.modal-content {
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.modal-header {
+    background-color: #9e9e9e;
+    color: rgb(60, 59, 65);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.modal-body {
+    line-height: 1.6;
+    color: rgb(60, 59, 65);;
+}
